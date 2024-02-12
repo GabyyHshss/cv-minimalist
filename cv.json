@@ -6,7 +6,7 @@
       "email": "gabyyhshss@gmail.com",
       "phone": "+54 1168286815",
       "url": "https://midu.dev",
-      "summary": "+15 años de experiencia como Desarrollador Web Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+      "summary": "Estoy interesado en realizar actividades en el área de IT como Desarrollador Jr. Aspiro a contribuir de manera significativa en proyectos de desarrollo de software con esfuerzo y entusiasmo. Mi objetivo es convertirme en un desarrollador junior altamente competente y contribuir al éxito de mi equipo y mi organización.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -51,34 +51,34 @@
       }
     ],
     "education": [{
-      "institution": "Universitat Oberta de Catalunya",
+      "institution": "Técnicatura Universitaria en Programación",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
-      "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
+      "area": "• UTN FRA",
+      "studyType": "Universidad",
+      "endDate": "2024, Último cuatrimestre •",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
       ]
     },{
-      "institution": "Universitat Oberta de Catalunya",
+      "institution": "Oracle Next Education F2 T5 Back-end",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
+      "area": "• ORACLE + Alura LATAM",
       "studyType": "Bachelor",
       "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
+      "endDate": "2023, Graduado •",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
       ]
       },{
-        "institution": "Universitat Oberta de Catalunya",
+        "institution": "Bachiller en Economía y Administración",
         "url": "https://www.uoc.edu/portal/es/index.html",
-        "area": "Ingeniero de Software",
+        "area": "• Escuela Secundaria N°27 Dorrego",
+        "observasion": "• Otro Establecimiento: Escuela Técnica N°6, La Matanza",
         "studyType": "Bachelor",
         "startDate": "2003-01-01",
-        "endDate": "2009-01-01",
+        "endDate": "2021, Egresado •",
         "score": "4.0",
         "courses": [
           "DB1101 - Basic SQL"
@@ -86,7 +86,7 @@
         }],
     "certificates": [{
       "name": "Certificate",
-      "date": "2021-11-07",
+      "date": "2023-11-07",
       "issuer": "Company",
       "url": "https://certificate.com"
     }],

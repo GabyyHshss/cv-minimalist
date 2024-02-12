@@ -4,7 +4,7 @@ import Section from "../Section.astro";
 import { work } from "@cv"
 ---
 
-<Section title="Perfil Profesional">
+<Section title="Experiencia Profesional">
     <ul>
         {work.map(({name,startDate, endDate,
         position, summary, highlights})=> {
@@ -33,31 +33,46 @@ import { work } from "@cv"
 </Section>
 
 <style>
-    ul {
-       display: flex;
-       flex-direction: column;
-       gap: 32px;
-    }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
 
-    article h3 {
-        font-weight: 500;
-        color: #111;
-    }
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
 
-    article h4 {
-        color: #222;
-        font-weight: 400;
-    }
+  article a {
+    color: #111;
+  }
 
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 4px;
-    }
+  article a:hover {
+    text-decoration: underline;
+  }
 
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 102px;
+  }
+
+  @media (width <= 700px) {
     time {
-        color: #555;
-        font-size: 0.85rem;
+      text-align: right;
     }
+  }
 </style>
