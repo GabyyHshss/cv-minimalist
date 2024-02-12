@@ -28,28 +28,40 @@ const SKILLS_ICONS: Record<string, any> = {
 }
 ---
 
-<Section title="Habilidades">
+<Section title="Mis Habilidades">
     <ul>
-      {skills.map(({ hability, highlights }) => (
-        <li>
-          <span>{hability}</span>
-          <ul>
-            {highlights.map((skill) => {
-              const Icon = SKILLS_ICONS[skill]
-  
-              return (
-                <li>
-                  {Icon && <Icon />} <span>{skill}</span>
-                </li>
-              )
-            })}
-          </ul>
-        </li>
-      ))}
+        {skills.map(({ name, highlights }) => {
+            return (
+                
+                    <article>
+                        <header>
+                            <h3>
+                                <a title={`Ver el proyecto ${name}`}>
+                                    {name}
+                                </a>
+                            </h3>
+                        </header>
+
+                        <footer>
+                        
+                            {highlights.map((skill) => {
+                            const Icon = SKILLS_ICONS[skill]
+                
+                            return (
+                                <li>
+                                {Icon && <Icon />} <span>{skill}</span>
+                                </li>
+                            )
+                            })}
+                        
+                        </footer>
+                    </article>
+                
+            );
+        })}
     </ul>
-  </Section>
-  
-  
+</Section>
+
 
 <style>
 
@@ -58,6 +70,18 @@ const SKILLS_ICONS: Record<string, any> = {
     grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
     gap: 1rem;
    }
+
+   li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
 
    article {
     border-radius: 8px;

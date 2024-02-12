@@ -104,7 +104,7 @@
     }],
     "skills":[
       {
-        "hability": "Habilidades Duras",
+        "name": "Habilidades Duras",
         "highlights": [
           "HTML",
           "CSS",
@@ -121,7 +121,7 @@
         ]
       },
       {
-        "hability": "Habilidades Blandas",
+        "name": "Habilidades Blandas",
         "highlights": [
           "Gestión de Tiempo",
           "Trabajo en Equipo",
