@@ -30,22 +30,25 @@
     },
     "work": [
       {
-        "name": "Página Web Personal",
-        "position": "Desarrollador Full Stack",
+        "name": "Desarrollo Web",
+        "position": "Desarrollador Front-End",
         "url": "https://twitch.tv/midudev",
         "startDate": "2016-06-01",
-        "endDate": "2025",
-        "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+        "endDate": "2024",
+        "onCourse":"Finalizado",
+        "summary": "Fui responsable del desarrollo de tres sitios web utilizando tecnologías básicas. En el último proyecto, implementé un CRUD básico utilizando Flask y MySQL, lo que me permitió adquirir experiencia en el desarrollo web con un enfoque más avanzado.",
         "highlights": [
           "Started the company"
         ]
       },
       {
-        "name": "Hubii",
-        "position": "Senior FrontEnd Developer",
-        "startDate": "2011-03-01",
-        "endDate": "2025",
-        "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+        "name": "Aplicación de reseña de películas",
+        "position": "Desarrollador Full-Stack",
+        "url": "https://twitch.tv/midudev",
+        "startDate": "2016-06-01",
+        "endDate": "2024,",
+        "onCourse":"En Desarrollo",
+        "summary": "Como líder de desarrollo de una aplicación de reseña de películas, estoy llevando a cabo la implementación de una arquitectura que separa claramente las responsabilidades entre el cliente y el servidor. El objetivo principal es lograr un bajo acoplamiento, permitiendo que tanto el cliente como el servidor evolucionen de manera independiente y en paralelo, incluso si están desarrollados con tecnologías distintas. En este proyecto, estoy utilizando MongoDB como base de datos, Java y Spring Boot para el backend, y React para el frontend. Este enfoque nos permite mantener una estructura flexible y escalable, facilitando futuras actualizaciones y mejoras en la aplicación.",
         "highlights": [
           "Started the company"
         ]

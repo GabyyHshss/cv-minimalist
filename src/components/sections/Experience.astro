@@ -6,10 +6,10 @@ import { work } from "@cv"
 
 <Section title="Experiencia Profesional">
     <ul>
-        {work.map(({name,startDate, endDate,
-        position, summary, highlights})=> {
+        {work.map(({name, endDate,
+        position, summary, onCourse})=> {
             const endYear = endDate != null ? new Date(endDate).getFullYear(): "Finalizando último cuatrimestre"
-            const years = `• ${endYear}`
+            const years = `• ${endYear} - ${onCourse}`
             
             return (
                 <li>
