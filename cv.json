@@ -5,7 +5,7 @@
       "image": "/me_01.webp",
       "email": "gabyyhshss@gmail.com",
       "phone": "+54 1168286815",
-      "url": "https://midu.dev",
+      "url": "https://gabyyhshss.github.io/my-personal-website/",
       "summary": "Estoy interesado en realizar actividades en el área de IT como Desarrollador Jr. Aspiro a contribuir de manera significativa en proyectos de desarrollo de software con esfuerzo y entusiasmo.",
       "summary2":"Mi objetivo es convertirme en un desarrollador junior altamente competente y contribuir al éxito de mi equipo y mi organización.",
       "location": {
@@ -25,6 +25,11 @@
           "network": "GitHub",
           "username": "gabyyhshss",
           "url": "https://github.com/gabyyhshss"
+        },
+        {
+          "network": "Portfolio",
+          "username": "gabyyhshss",
+          "url": "https://gabyyhshss.github.io/my-personal-website/"
         }
       ]
     },
@@ -32,7 +37,7 @@
       {
         "name": "Desarrollo Web",
         "position": "Desarrollador Front-End",
-        "url": "https://twitch.tv/midudev",
+        "url": "",
         "startDate": "2016-06-01",
         "endDate": "2024",
         "onCourse":"Finalizado",
