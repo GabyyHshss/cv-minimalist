@@ -17,11 +17,24 @@ const SOCIAL_ICONS: Record<string, any> = {
     Portfolio
 }
 
-const linkedInfo = profiles.find(({ network }) => network = "LinkedIn")
+// LinkedInd
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [ email, phone].filter(Boolean).join(" • ")
+// GitHub
+const linkedInfo2 = profiles.find(({ network }) => network === "GitHub")
+const linkedUrl2 = linkedInfo2?.url
+
+// Cv WebSite
+const linkedInfo3 = profiles.find(({ network }) => network === "Portfolio")
+const linkedUrl3 = linkedInfo3?.url
+
+const printInfo = [email, phone].filter(Boolean).join(" • ")
 const printInfoLinked = [linkedUrl ]
+
+const printInfoLinked2 = [linkedUrl2 ]
+const printInfoLinked3 = [linkedUrl3 ]
+
 ---
 
 <Section>
@@ -35,7 +48,9 @@ const printInfoLinked = [linkedUrl ]
             </span>
             <footer class="print">
                     • {printInfo} </br>
-                    • {printInfoLinked}
+                    • {printInfoLinked} </br>
+                    • {printInfoLinked2} </br>
+                    • {printInfoLinked3}
                 </footer>
                 <footer class="no-print">
                     {
