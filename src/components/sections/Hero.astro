@@ -41,7 +41,7 @@ const printInfoLinked3 = [linkedUrl3 ]
     <div class="container">
         <div class="info">
             <h1>{name}</h1>
-            <h2>{label}</h2>
+            <p class="label">{label}</p>
             <span>
                 <WorldMap />
                 {city}, {region}
@@ -120,14 +120,20 @@ const printInfoLinked3 = [linkedUrl3 ]
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .label {
+        margin-top: 5px;
     }
 
     h2 {
-        color: #444;
+        margin: 0;
+		color: #666;
+		font-size: 0.9rem;
+		line-height: 1.5;
+		text-wrap: pretty;
         font-weight: 500;
-        font-size: 1.1rem;
-        text-wrap: balance;
     }
 
     img {

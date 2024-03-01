@@ -1,13 +1,14 @@
 {
     "basics": {
       "name": "Gabriel Fernando Paniagua",
-      "label": "Programador Junior con Sólida Formación Académica",
+      "label": "Junior Full Stack Developer, focused on building products with extra attention to detail.",
       "image": "/me_01.webp",
       "email": "gabyyhshss@gmail.com",
       "phone": "+54 1168286815",
       "url": "https://gabyyhshss.github.io/my-personal-website/",
-      "summary": "Estoy interesado en realizar actividades en el área de IT como Desarrollador Jr. Aspiro a contribuir de manera significativa en proyectos de desarrollo de software con esfuerzo y entusiasmo.",
-      "summary2":"Mi objetivo es convertirme en un desarrollador junior altamente competente y contribuir al éxito de mi equipo y mi organización.",
+      "summary": "As a Junior Full Stack Developer, I have successfully carried out various personal and academic projects. My main focus on teamwork ensures a collaborative environment where each member can rely on my commitment. My experience is mainly focused on Web Layout, Java, SpringBoot, React and MongoDB.",
+      "summary2": "I am excited about the opportunity to be one of the 90 individuals selected to participate in the ",
+      "summaryMain":"USA Summer Experience - UPENN.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -35,25 +36,25 @@
     },
     "work": [
       {
-        "name": "Desarrollo Web",
-        "position": "Desarrollador Front-End",
+        "name": "Web Development",
+        "position": "Front-End Developer",
         "url": "",
         "startDate": "2016-06-01",
         "endDate": "2024",
-        "onCourse":"Finalizado",
-        "summary": "Fui responsable del desarrollo de tres sitios web utilizando tecnologías básicas. En el último proyecto, implementé un CRUD básico utilizando Flask y MySQL, lo que me permitió adquirir experiencia en el desarrollo web con un enfoque más avanzado.",
+        "onCourse":"Completed",
+        "summary":"I managed three website projects using basic technology. In the last one, I prepared a basic CRUD with Flask and MySQL, giving me solid experience into more advanced web development.",
         "highlights": [
           "Started the company"
         ]
       },
       {
-        "name": "Aplicación de reseña de películas",
-        "position": "Desarrollador Full-Stack",
+        "name": "Movie Review Web Application",
+        "position": "Full-Stack Developer",
         "url": "https://twitch.tv/midudev",
         "startDate": "2016-06-01",
         "endDate": "2024,",
-        "onCourse":"En Desarrollo",
-        "summary": "Como líder de desarrollo de una aplicación de reseña de películas, estoy llevando a cabo la implementación de una arquitectura que separa claramente las responsabilidades entre el cliente y el servidor. El objetivo principal es lograr un bajo acoplamiento, permitiendo que tanto el cliente como el servidor evolucionen de manera independiente y en paralelo, incluso si están desarrollados con tecnologías distintas. En este proyecto, estoy utilizando MongoDB como base de datos, Java y Spring Boot para el backend, y React para el frontend. Este enfoque nos permite mantener una estructura flexible y escalable, facilitando futuras actualizaciones y mejoras en la aplicación.",
+        "onCourse":"In progress",
+        "summary": "As the lead developer of a movie review app, I'm using an architecture that separates the client and server so they can evolve independently. We use MongoDB, Java with Spring Boot for the backend, and React for the frontend. This helps us maintain the app flexible and scalable for future updates.",
         "highlights": [
           "Started the company"
         ]
@@ -62,9 +63,9 @@
     "education": [{
       "institution": "Técnicatura Universitaria en Programación",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "• UTN FRBA",
+      "area": " UTN FRBA",
       "studyType": "Universidad",
-      "endDate": "2024, Último cuatrimestre •",
+      "endDate": "2024, Último cuatrimestre ",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
@@ -73,9 +74,9 @@
     {
       "institution": "Inglés ESP IT B1",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "• Lenguas Vivas Bariloche",
+      "area": " Lenguas Vivas Bariloche",
       "studyType": "Universidad",
-      "endDate": "2023, Graduado •",
+      "endDate": "2023, Graduate ",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
@@ -83,10 +84,10 @@
     },{
       "institution": "Oracle Next Education F2 T5 Back-end",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "• ORACLE + Alura LATAM",
+      "area": " ORACLE + Alura LATAM",
       "studyType": "Bachelor",
       "startDate": "2003-01-01",
-      "endDate": "2023, Graduado •",
+      "endDate": "2023, Graduate ",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
@@ -94,11 +95,11 @@
       },{
         "institution": "Bachiller en Economía y Administración",
         "url": "https://www.uoc.edu/portal/es/index.html",
-        "area": "• Escuela Secundaria N°27 Dorrego",
-        "observasion": "• Otro Establecimiento: Escuela Técnica N°6, La Matanza",
+        "area": " Escuela Secundaria N°27 Dorrego",
+        "observasion": " Otro Establecimiento: Escuela Técnica N°6, La Matanza",
         "studyType": "Bachelor",
         "startDate": "2003-01-01",
-        "endDate": "2021, Egresado •",
+        "endDate": "2021, Graduate ",
         "score": "4.0",
         "courses": [
           "DB1101 - Basic SQL"
@@ -110,33 +111,50 @@
       "issuer": "Company",
       "url": "https://certificate.com"
     }],
-    "skills":[
+    "skills": [
       {
-        "name": "Habilidades Duras",
-        "highlights": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "PHP",
-          "Mongo_DB",
-          "Node",
-          "JAVA",
-          "C_SHARP",
-          "MySQL",
-          "POSTGRESQL",
-          "Git",
-          "GitHub",
-          "Inglés_B1"
-        ]
+        "name": "HTML",
+        "level": "Master"
       },
       {
-        "name": "Habilidades Blandas",
-        "highlights": [
-          "Gestión de Tiempo",
-          "Trabajo en Equipo",
-          "Resolución de Conflictos",
-          "Atención al Cliente"
-        ]
+        "name": "CSS",
+        "level": "Master"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master"
+      },
+      {
+        "name": "React",
+        "level": "Avanzado"
+      },
+      {
+        "name": "Java",
+        "level": "Avanzado"
+      },
+      {
+        "name": "SpringBoot",
+        "level": "Avanzado"
+      },
+      {
+        "name": "MongoDB",
+        "level": "Avanzado"
+      },
+      {
+        "name": "MySQL",
+        "level": "Avanzado"
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado"
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado"
+      },
+      {
+        "name": "English",
+        "level": "Avanzado"
       }
     ],
     "projects": [
