@@ -1,17 +1,16 @@
 {
     "basics": {
       "name": "Gabriel Fernando Paniagua",
-      "label": "Junior Full Stack Developer, focused on building products with extra attention to detail.",
-      "image": "/me_01.webp",
-      "email": "gabyyhshss@gmail.com",
-      "phone": "+54 1168286815",
+      "label": "BackEnd Developer, focused on building products with extra attention to detail.",
+      "image": "./profile.jpg",
+      "email": "gabrielpanniagua@gmail.com",
       "url": "https://gabyyhshss.github.io/my-personal-website/",
-      "summary": "As a Junior Full Stack Developer, I have successfully carried out various personal and academic projects. My main focus on teamwork ensures a collaborative environment where each member can rely on my commitment. My experience is mainly focused on Web Layout, Java, SpringBoot, React and MongoDB.",
-      "summary2": "I am excited about the opportunity to be one of the 90 individuals selected to participate in the ",
-      "summaryMain":"USA Summer Experience - UPENN.",
+      "summary": "My passion for software development encompasses all its facets, with a special focus on backend development within the Java ecosystem. I am proactive and have solid experience in key technologies. I enjoy continuous learning, which I achieve through channels such as MiduDev, TodoCode and freeCodeCamp.",
+      "summary2": "I am currently actively seeking new job opportunities where I can apply my skills and experience effectively.",
+      "summaryMain":"Búsquedas Externas GCABA",
       "location": {
-        "address": "",
-        "postalCode": "",
+        "address": "score",
+        "postalCode": "seeking",
         "city": "Buenos Aires",
         "countryCode": "ES",
         "region": "Argentina"
@@ -30,31 +29,31 @@
         {
           "network": "Portfolio",
           "username": "gabyyhshss",
-          "url": "https://gabriels-portfolio-hub.netlify.app/"
+          "url": "https://gabyyhshss-dev.netlify.app/"
         }
       ]
     },
     "work": [
       {
-        "name": "Web Development",
-        "position": "Front-End Developer",
+        "name": "Login and management system for small businesses",
+        "position": "Back End",
         "url": "",
-        "startDate": "2016-06-01",
-        "endDate": "2024",
-        "onCourse":"Completed",
-        "summary":"I managed three website projects using basic technology. In the last one, I prepared a basic CRUD with Flask and MySQL, giving me solid experience into more advanced web development.",
+        "startDate": "",
+        "endDate": "",
+        "onCourse":"",
+        "summary":"Management software with user authentication, based on JPA for efficient database queries. GUI with Java Swing",
         "highlights": [
           "Started the company"
         ]
       },
       {
-        "name": "Movie Review Web Application",
+        "name": "Moovie Prime Video",
         "position": "Full-Stack Developer",
-        "url": "https://twitch.tv/midudev",
+        "url": "",
         "startDate": "2016-06-01",
         "endDate": "2024,",
         "onCourse":"In progress",
-        "summary": "As the lead developer of a movie review app, I'm using an architecture that separates the client and server so they can evolve independently. We use MongoDB, Java with Spring Boot for the backend, and React for the frontend. This helps us maintain the app flexible and scalable for future updates.",
+          "summary": "This RESTful API is designed to facilitate the implementation of a streaming service that allows users to review and preview series and movies. It has been developed with a loosely coupled architecture, allowing the two parts to evolve in parallel and independently. Stack: I used MongoDB for the database, Java with Spring Boot for the backend and React for the frontend",
         "highlights": [
           "Started the company"
         ]
@@ -62,7 +61,7 @@
     ],
     "education": [{
       "institution": "Técnicatura Universitaria en Programación",
-      "url": "https://www.uoc.edu/portal/es/index.html",
+      "url": "",
       "area": " UTN FRBA",
       "studyType": "Universidad",
       "endDate": "2024, Último cuatrimestre ",
@@ -125,19 +124,17 @@
         "level": "Master"
       },
       {
-        "name": "React",
-        "level": "Avanzado"
+        "name": "react",
+        "level": "Máster"
       },
       {
         "name": "Java",
         "level": "Avanzado"
-      },
+      }
+    ],
+    "skills2": [
       {
         "name": "SpringBoot",
-        "level": "Avanzado"
-      },
-      {
-        "name": "MongoDB",
         "level": "Avanzado"
       },
       {
@@ -155,28 +152,6 @@
       {
         "name": "English",
         "level": "Avanzado"
-      }
-    ],
-    "projects": [
-      {
-        "name": "Pruebas Técnicas",
-        "isActive": true,
-        "description": "Lista de pruebas técnicas de empresas para practicar programación",
-        "highlights": [
-          "100% gratuito",
-          "+500 soluciones de la comunidad"
-        ],
-        "url": "https://pruebastecnicas.com",
-        "github": "https://github.com/midudev/pruebas-tecnicas"
-      },
-      {
-        "name": "miduConf",
-        "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-        "highlights": [
-          "+15k tickets repartidos",
-          "+50k espectadores en directo"
-        ],
-        "url": "https://miduconf.com"
       }
     ]
   }

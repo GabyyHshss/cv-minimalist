@@ -3,15 +3,15 @@ import Section from "../Section.astro"
 import HTML from "@/icons/html.astro"
 import CSS from "@/icons/css.astro"
 import JavaScript from "@/icons/javascript.astro"
-import react from "@/icons/react.astro"
-import MongoDB from "@/icons/mongo.astro"
 import Java from "@/icons/java.astro"
+import react from "@/icons/react.astro"
 import SpringBoot from "@/icons/spring.astro"
 import MySQL from "@/icons/sql.astro"
 import Git from "@/icons/git.astro"
 import GitHub from "@/icons/GitHub.astro"
 import English  from "@/icons/english.astro"
 import { skills } from "@cv"
+import { skills2 } from "@cv"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -20,7 +20,6 @@ const SKILLS_ICONS: Record<string, any> = {
   react,
   Java,
   SpringBoot,
-  MongoDB,
   MySQL,
   Git,
   GitHub,
@@ -29,6 +28,7 @@ const SKILLS_ICONS: Record<string, any> = {
 ---
 
 <Section title="Skills">
+  <div class="container-ul">
     <ul>
       {
         skills.map(({ name }) => {
@@ -43,13 +43,32 @@ const SKILLS_ICONS: Record<string, any> = {
         })
       }
     </ul>
+    <ul>
+      {
+        skills2.map(({ name }) => {
+          const iconName = name === "Next.js" ? "Next" : name
+          const Icon = SKILLS_ICONS[iconName]
+  
+          return (
+            <li>
+              {Icon && <Icon />} <span>{name}</span>
+            </li>
+          )
+        })
+      }
+    </ul>
+  </div>
   </Section>
   
   <style>
+    .container-ul {
+      width: 100%;
+      text-align: center;
+    }
+
     ul {
       display: inline-flex;
       gap: 8px;
-      flex-wrap: wrap;
       justify-content: center;
 
     }

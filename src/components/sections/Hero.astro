@@ -8,7 +8,7 @@ import LinkedIn from '@/icons/LinkedIn.astro'
 import Portfolio from '@/icons/portfolio_bag.astro'
 import WorldMap from '@/icons/WorldMap.astro'
 
-const {name, label, image, location, profiles, phone, email} = basics
+const {name, label, image, location, profiles, email} = basics
 const {city, region} = location
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -29,7 +29,7 @@ const linkedUrl2 = linkedInfo2?.url
 const linkedInfo3 = profiles.find(({ network }) => network === "Portfolio")
 const linkedUrl3 = linkedInfo3?.url
 
-const printInfo = [email, phone].filter(Boolean).join(" • ")
+const printInfo = [email].filter(Boolean).join(" • ")
 const printInfoLinked = [linkedUrl ]
 
 const printInfoLinked2 = [linkedUrl2 ]
@@ -47,36 +47,13 @@ const printInfoLinked3 = [linkedUrl3 ]
                 {city}, {region}
             </span>
             <footer class="print">
-                    • {printInfo} </br>
-                    • {printInfoLinked} </br>
-                    • {printInfoLinked2} </br>
-                    • {printInfoLinked3}
+                    {printInfo} </br>
+                    {printInfoLinked} </br>
+                    {printInfoLinked2} </br>
+                    {printInfoLinked3}
                 </footer>
                 <footer class="no-print">
-                    {
-                    email && (
-                        <a
-                            href={`mailto:${email}`}
-                            title={`Enviar un correo electrónico a ${name} al correo ${email}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                        <Mail />
-                        </a>
-                    )
-                }
-                {
-                    phone && (
-                        <a
-                            href={`Teléfono:${phone}`}
-                            title={`Mandar mensaje o llamar a ${name} al número ${phone}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                        <Phone />
-                        </a>
-                    )
-                }
+            
                 {
                     profiles.map(({ network, url}) => {
                         const Icon = SOCIAL_ICONS[network]
@@ -120,27 +97,31 @@ const printInfoLinked3 = [linkedUrl3 ]
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .label {
+        color: #444;
         margin-top: 5px;
+        text-wrap: Balance;
+        font-weight: 500;
+        font-size: 1.1rem;
     }
 
     h2 {
         margin: 0;
-		color: #666;
+		color: #444;
 		font-size: 0.9rem;
 		line-height: 1.5;
-		text-wrap: pretty;
+		text-wrap: Balance;
         font-weight: 500;
     }
 
     img {
         aspect-ratio: 1 / 1;
         object-fit: cover;
-        width: 128px;
-        border-radius: 8px;
+        width: 148px;
+        border-radius: 32px;
     }
 
     span{
