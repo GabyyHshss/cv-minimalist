@@ -3,147 +3,66 @@ import Section from "../Section.astro"
 import HTML from "@/icons/html.astro"
 import CSS from "@/icons/css.astro"
 import JavaScript from "@/icons/javascript.astro"
-import PHP from "@/icons/php.astro"
-import Mongo_DB from "@/icons/mongo.astro"
-import Node from "@/icons/node.astro"
-import JAVA from "@/icons/java.astro"
-import C_SHARP from "@/icons/c-sharp.astro"
-import POSTGRESQL from "@/icons/postgresql.astro"
+import react from "@/icons/react.astro"
+import MongoDB from "@/icons/mongo.astro"
+import Java from "@/icons/java.astro"
+import SpringBoot from "@/icons/spring.astro"
 import MySQL from "@/icons/sql.astro"
 import Git from "@/icons/git.astro"
 import GitHub from "@/icons/GitHub.astro"
-import Inglés_B1  from "@/icons/english.astro"
+import English  from "@/icons/english.astro"
 import { skills } from "@cv"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
   CSS,
   JavaScript,
-  PHP,
-  Mongo_DB,
-  Node,
-  JAVA,
-  C_SHARP,
+  react,
+  Java,
+  SpringBoot,
+  MongoDB,
   MySQL,
-  POSTGRESQL,
   Git,
   GitHub,
-  Inglés_B1
+  English
 }
 ---
 
-<Section title="Mis Habilidades">
+<Section title="Skills">
     <ul>
-        {skills.map(({ name, highlights }) => {
-            return (
-                
-                    <article>
-                        <header>
-                            <h3>
-                                <a title={`Ver el proyecto ${name}`}>
-                                    {name}
-                                </a>
-                            </h3>
-                        </header>
-
-                        <footer>
-                        
-                            {highlights.map((skill) => {
-                            const Icon = SKILLS_ICONS[skill]
-                
-                            return (
-                                <li>
-                                {Icon && <Icon />} <span>{skill}</span>
-                                </li>
-                            )
-                            })}
-                        
-                        </footer>
-                    </article>
-                
-            );
-        })}
+      {
+        skills.map(({ name }) => {
+          const iconName = name === "Next.js" ? "Next" : name
+          const Icon = SKILLS_ICONS[iconName]
+  
+          return (
+            <li>
+              {Icon && <Icon />} <span>{name}</span>
+            </li>
+          )
+        })
+      }
     </ul>
-</Section>
-
-
-<style>
-
+  </Section>
+  
+  <style>
     ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
-    gap: 1rem;
-   }
+      display: inline-flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
 
-   li {
-    align-items: center;
-    background: #eee;
-    border-radius: 6px;
-    color: black;
-    display: flex;
-    font-size: 0.8rem;
-    font-weight: 500;
-    gap: 4px;
-    padding: 0.2rem 0.6rem;
-  }
-
-  li:hover {
-    background-color: #ffc99d;
-  }
-
-   article {
-    border-radius: 8px;
-    border: 1px solid #888;
-    gap: 16px;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    height: 100%;
-   }
-
-   article:hover {
-    border: 1px solid #444;
-   }
-   /*
-   article header {
-    flex: 1;
-   }*/
-
-   article h3 {
-    margin-bottom: 4px;
-   }
-
-   article a {
-    color: #111;
-   }
-
-   article a:hover {
-    text-decoration: underline;
-   }
-
-   article p {
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-    margin-bottom: 4px;
-   }
-
-   article h3 span {
-    color: rgb(0, 255, 64);
-   }
-
-   footer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    font-size: 0.6rem;
-   }
-
-   footer span {
-    border-radius: 6px;
-    background: #eee;
-    color: #444;
-    font-size: 0.7rem;
-    font-weight: 500;
-    padding: 0.2rem 0.6rem;
-   }
-</style>
+    }
+  
+    li {
+      align-items: center;
+      background: #eee;
+      border-radius: 6px;
+      color: black;
+      display: flex;
+      font-size: 0.8rem;
+      font-weight: 500;
+      gap: 4px;
+      padding: 0.2rem 0.6rem;
+    }
+  </style>
