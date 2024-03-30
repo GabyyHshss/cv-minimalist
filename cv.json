@@ -5,7 +5,7 @@
       "image": "./profile.jpg",
       "email": "gabrielpanniagua@gmail.com",
       "url": "https://gabyyhshss.github.io/my-personal-website/",
-      "summary": "My passion for software development encompasses all its facets, with a special focus on backend development within the Java ecosystem. I am proactive and have solid experience in key technologies. I enjoy continuous learning, which I achieve through channels such as MiduDev, TodoCode and freeCodeCamp.",
+      "summary": "My passion for software development encompasses all its facets, with a special focus on backend development within the Java ecosystem. I am proactive and have solid experience in key technologies. I enjoy continuous learning, which I achieve through channels such as MiduDev, TodoCode, MitoCode and freeCodeCamp.",
       "summary2": "I am currently actively seeking new job opportunities where I can apply my skills and experience effectively.",
       "summaryMain":"Búsquedas Externas GCABA",
       "location": {
@@ -42,6 +42,7 @@
         "endDate": "",
         "onCourse":"",
         "summary":"Management software with user authentication, based on JPA for efficient database queries. GUI with Java Swing",
+        "data": "More information on my GitHub",
         "highlights": [
           "Started the company"
         ]
@@ -53,7 +54,8 @@
         "startDate": "2016-06-01",
         "endDate": "2024,",
         "onCourse":"In progress",
-          "summary": "This RESTful API is designed to facilitate the implementation of a streaming service that allows users to review and preview series and movies. It has been developed with a loosely coupled architecture, allowing the two parts to evolve in parallel and independently. Stack: I used MongoDB for the database, Java with Spring Boot for the backend and React for the frontend",
+        "summary": "This RESTful API is designed to facilitate the implementation of a streaming service that allows users to review and preview series and movies. It has been developed with a loosely coupled architecture, allowing the two parts to evolve in parallel and independently. Stack: I used MongoDB for the database, Java with Spring Boot for the backend and React for the frontend",
+        "data": "More information on my GitHub",
         "highlights": [
           "Started the company"
         ]
