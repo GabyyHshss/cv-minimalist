@@ -28,7 +28,6 @@ const SKILLS_ICONS: Record<string, any> = {
 ---
 
 <Section title="Skills">
-  <div class="container-ul">
     <ul>
       {
         skills.map(({ name }) => {
@@ -44,7 +43,7 @@ const SKILLS_ICONS: Record<string, any> = {
       }
     </ul>
     <ul>
-      {
+        {
         skills2.map(({ name }) => {
           const iconName = name === "Next.js" ? "Next" : name
           const Icon = SKILLS_ICONS[iconName]
@@ -57,20 +56,14 @@ const SKILLS_ICONS: Record<string, any> = {
         })
       }
     </ul>
-  </div>
+  
   </Section>
   
   <style>
-    .container-ul {
-      width: 100%;
-      text-align: center;
-    }
 
     ul {
       display: inline-flex;
       gap: 8px;
-      justify-content: center;
-
     }
   
     li {
