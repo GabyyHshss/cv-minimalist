@@ -66,7 +66,7 @@
       "url": "",
       "area": " UTN FRBA",
       "studyType": "Universidad",
-      "endDate": "2024, Último cuatrimestre ",
+      "endDate": "2024, In progress ",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
@@ -112,28 +112,6 @@
       "issuer": "Company",
       "url": "https://certificate.com"
     }],
-    "skills": [
-      {
-        "name": "HTML",
-        "level": "Master"
-      },
-      {
-        "name": "CSS",
-        "level": "Master"
-      },
-      {
-        "name": "JavaScript",
-        "level": "Master"
-      },
-      {
-        "name": "React",
-        "level": "Máster"
-      },
-      {
-        "name": "Java",
-        "level": "Avanzado"
-      }
-    ],
     "skills2": [
       {
         "name": "SpringFramework",
@@ -153,6 +131,28 @@
       },
       {
         "name": "English",
+        "level": "Avanzado"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Master"
+      },
+      {
+        "name": "CSS",
+        "level": "Master"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master"
+      },
+      {
+        "name": "React",
+        "level": "Máster"
+      },
+      {
+        "name": "Java",
         "level": "Avanzado"
       }
     ]
