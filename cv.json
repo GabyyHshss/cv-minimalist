@@ -5,7 +5,7 @@
       "image": "./profile.jpg",
       "email": "gabrielpanniagua@gmail.com",
       "url": "https://gabyyhshss.github.io/my-personal-website/",
-      "summary": "My passion for software development encompasses all its facets, with a special focus on backend development within the Java ecosystem. I am proactive and have solid experience in key technologies. I enjoy continuous learning, which I achieve through channels such as MiduDev, TodoCode, MitoCode and freeCodeCamp.",
+      "summary": "I am passionate, smart, and creative BackEnd Developer and an advanced student of the University Programming Technician Program at one of the best universities in Argentina, UTN. I also have a solid command of English, allowing me to effectively communicate and access technical documentation. Additionally, I have strong communication and teamwork skills.",
       "summary2": "I am currently actively seeking new job opportunities where I can apply my skills and experience effectively.",
       "summaryMain":"",
       "location": {
@@ -35,27 +35,27 @@
     },
     "work": [
       {
-        "name": "Login and management system for small businesses",
-        "position": "Back End",
+        "name": "Notes Management APIRESTful",
+        "position": "",
         "url": "",
         "startDate": "",
         "endDate": "",
         "onCourse":"",
-        "summary":"Management software with user authentication, based on JPA for efficient database queries. GUI with Java Swing",
-        "data": "More information on my GitHub",
+        "summary":"RESTful API for a note-taking system designed to streamline the comprehensive management of personal ideas, notes and to-dos",
+        "data": "Find more information on my github",
         "highlights": [
           "Started the company"
         ]
       },
       {
-        "name": "Moovie Prime Video",
-        "position": "Full-Stack Developer",
+        "name": "DigiTamers - Swipe",
+        "position": "",
         "url": "",
         "startDate": "2016-06-01",
         "endDate": "2024,",
         "onCourse":"In progress",
-        "summary": "This RESTful API is designed to facilitate the implementation of a streaming service that allows users to review and preview series and movies. It has been developed with a loosely coupled architecture, allowing the two parts to evolve in parallel and independently. Stack: I used MongoDB for the database, Java with Spring Boot for the backend and React for the frontend",
-        "data": "More information on my GitHub",
+        "summary": "In this project I implement JS, CSS and HTML for the creation of a game inspired by the Tinder swipe and Digimon",
+        "data": "More projects on my GitHub",
         "highlights": [
           "Started the company"
         ]
@@ -126,7 +126,7 @@
         "level": "Master"
       },
       {
-        "name": "react",
+        "name": "React",
         "level": "Máster"
       },
       {
@@ -136,7 +136,7 @@
     ],
     "skills2": [
       {
-        "name": "SpringBoot",
+        "name": "SpringFramework",
         "level": "Avanzado"
       },
       {
